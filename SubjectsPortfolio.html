@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Subjects Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    h1{
+        text-align: center;
+        color: black;
+        font-size: 64px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+  </style>  
+  </style>  
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>Portfolio</h1>
+  </div>
+  <div class="row">
+    <div class="col-sm-5"></div>
+    <div class="col-sm-7">
+      <div class="dropdown-center">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+          Pages
+        </button>
+       <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html">Home Page</a></li>
+        <li><a class="dropdown-item" href="ContactPage.html">Contact Me!</a></li>
+        <li><a class="dropdown-item" href="SubjectsPortfolio.html">Portfolio</a></li>
+       </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h2>
+      Completed Subjects
+    </h2>
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="Bus101A" data-bs-content="This was a course to build up basic skills">
+        <img src="Bus101A.png" class="w-25" alt="Bus101A">
+      </button>
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="Sta101A" data-bs-content="This was a course on basic data analysis mostly using Excel">
+        <img src="Sta101A.png" class="w-25" alt="Sta101A">
+      </button>
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="Cyb101A" data-bs-content="This was a course on Cybersecurity basics">
+        <img src="Cyb101A.png" class="w-25" alt="Cyb101A">
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="Cyb102A" data-bs-content="This was a course on different of cybercrime and basic cyber-crimonology">
+        <img src="Cyb102A.png" class="w-25" alt="Cyb102A">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="ICT101A" data-bs-content="This was a course to build up basic skills">
+        <img src="ICT101A.png" class="w-25" alt="ICT101A">
+      </button>
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="ICT102A" data-bs-content="This was a course on basic networking">
+        <img src="ICT102A.png" class="w-25" alt="ICT102A">
+      </button>
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="ICT103A" data-bs-content="This was a course on Python basics">
+        <img src="ICT103A.png" class="w-25" alt="ICT103A">
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="Dat101A" data-bs-content="This was a course on the basics of databases, and basic SQL">
+        <img src="Dat101A.png" class="w-25" alt="Dat101A">
+    </div>
+  </div>
+  <h2>In Progress Classes</h2>
+  <div class="row">
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="Cyb201A" data-bs-content="This is a course on basic network security">
+        <img src="Cyb201A.png" class="w-25" alt="Cyb201A">
+      </button>
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="ICT201A" data-bs-content="This is a course on IT project management and how it functions in the real world">
+        <img src="ICT201A.png" class="w-25" alt="ICT201A">
+      </button>
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="ICT202A" data-bs-content="This is a course on mostly web technologies, with mobile technology also being discussed">
+        <img src="ICT202A.png" class="w-25" alt="ICT202A">
+    </div>
+    <div class="col-sm-3">
+      <button type="button" class="btn btn-primary" data-bs-toggle="popover" 
+      data-bs-trigger="hover" title="ICT203A" data-bs-content="This is a course on edge computing">
+        <img src="ICT203A.png" class="w-25" alt="ICT203A">
+    </div>
+</body>
+</html>
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
